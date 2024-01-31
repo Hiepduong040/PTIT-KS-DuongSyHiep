@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Documents</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>My Projects</h2>
+      <form action="/action_page.php">
+        <div class="input-group mb-3">
+          <span class="input-group-text">@</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Project Name"
+            name="usrname"
+          />
+          <span class="input-group-text">@</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder=" Image URL"
+            name="usrname"
+          />
+          <span class="input-group-text">@</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Link "
+            name="usrname"
+          />
+          <span class="input-group-text">@</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Tags(Ex: React, Angular)"
+            name="usrname"
+          />
+          <span
+            ><button type="button" class="btn btn-primary" id="newProject">
+              +New Project
+            </button></span
+          >
+        </div>
+      </form>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Project Name</th>
+            <th>Image URL</th>
+            <th>Link</th>
+            <th>Tag</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Auto Drive Project</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+              <button type="button" class="btn btn-light">Angular</button>
+              <button type="button" class="btn btn-light">React</button>
+              <button type="button" class="btn btn-light">Jquery</button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-success">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ecommere Project</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+              <button type="button" class="btn btn-light">Bootstrap</button>
+              <button type="button" class="btn btn-light">CSS</button>
+              <button type="button" class="btn btn-light">Javascript</button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-success">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Chat Application</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+              <button type="button" class="btn btn-light">MongoDB</button>
+              <button type="button" class="btn btn-light">Javascript</button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-success">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Social Media Platform</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+              <button type="button" class="btn btn-light">Vue</button>
+              <button type="button" class="btn btn-light">Javascript</button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-success">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Image Sharing Platform</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+              <button type="button" class="btn btn-light">React</button>
+              <button type="button" class="btn btn-light">Javascript</button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-success">Update</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <style>
+        #newProject {
+          height: 34px;
+        }
+      </style>
+    </div>
+    <script src="./admin.html"></script>
+  </body>
+</html>
